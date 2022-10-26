@@ -1,43 +1,39 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>E - VIDYALAYA</title>
-        <link rel="Stylesheet" href="Style.css">
-        <script src="script.js"></script>
-        <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    </head>
-    <body> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sample.css" />
+    <title>Navigation bar</title>
+  </head>
+  <body>
     <header>
-        <nav>
-            <img src="E - Vidyalaya.gif">
-            <ul> 
-                <a href="#Home">Home </a>
-                <a href="#About">About </a>
-                <a href="Feature">Feature </a>
-                <a href="Login">Login </a> 
-                <a href="Signup">Sign up </a>
-                <a href="Contact">Contact </a>
-            </ul>
-        </nav>
-        <div id="hamburger-icon">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-            <ul class="mobile-menu">
-                <a href="#Home">Home </a>|
-                <a href="#About">About </a>|
-                <a href="Feature">Feature </a>|
-                <a href="Login">Login </a> |
-                <a href="Signup">Sign up </a>|
-                <a href="Contact">Contact </a>
-            </ul>
-        </div>
+      <div id="brand">
+        <img src="E - Vidyalaya.gif">
+        <p>E - Vidyalaya</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/features">Features</a></li>
+          <li id="login"><a href="/login" >Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/features">Features</a></li>
+          <li id="login"><a href="/login" >Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </div>
     </header>
-        <selection class="Home">
-        </br>
-            <h1>
-                Welcome to E - Vidyalaya
-            </h1>
-        </selection>
-    </body>
+    <script src="sample.js"></script>
+  </body>
 </html>
