@@ -137,6 +137,12 @@ ul li:hover {
 .mobile-menu a{
   color: black;
 }
+.home{
+  text-align: center;
+  font-style: italic;
+  color: black;
+  padding: 100px;
+}
 @media only screen and (max-width: 600px) {
   header nav {
     display: none;
